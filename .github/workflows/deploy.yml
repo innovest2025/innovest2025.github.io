@@ -28,3 +28,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          external_repository: innovest2025/innovest2025.github.io
+          publish_branch: main
