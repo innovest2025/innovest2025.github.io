@@ -26,7 +26,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+          deploy_key: ${{ secrets.DEPLOY_TOKEN }}
           publish_dir: ./dist
           external_repository: innovest2025/innovest2025.github.io
           publish_branch: main
